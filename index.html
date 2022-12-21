@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/60097af552.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div id="header">
@@ -69,26 +70,89 @@
    </div> 
    <!-----------services------->
    <div id="services">
-    <div class-"container">
+    <div class="container">
         <h1 class="sub-title">My Services</h1>
         <div class="services-list">
             <div>
+                <i class="fa-solid fa-code"></i>
                 <h2>Web Design</h2>
                 <p>description</p>
-                <a href="#">learn more</a>
+                <a href="#">Learn more</a>
             </div>
             <div>
+                <i class="fa-solid fa-crop-simple"></i>
                 <h2>UI/UX Design</h2>
                 <p>description</p>
-                <a href="#">learn more</a>
+                <a href="#">Learn more</a>
             </div>
             <div>
+                <i class="fa-brands fa-app-store-ios"></i>
                 <h2>App Design</h2>
                 <p>description</p>
-                <a href="#">learn more</a>
+                <a href="#">Learn more</a>
             </div>
         </div>
     </div>
+</div>
+    <!-----------portfolio---------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/logo.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>desciption for the header</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/logo.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>desciption for the header</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/logo.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>desciption for the header</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+   <!---------------contanct----------------->
+   <div id="contact">
+        <div class="contact">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> xxx-xxx-xxxx</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
    </div>
    <script>
     var tablinks = document.getElementsByClassName("tab-links");
