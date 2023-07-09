@@ -14,9 +14,9 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(images/background.png);
-    background-size: 20%;
-    background-position: 80% center;
+    background-image: url(images/background.jpeg);
+    background-size: 40%;
+    background-position: 90% center;
     background-repeat: no-repeat;
 }
 .container {
@@ -188,6 +188,8 @@ nav ul li a:hover::after {
 }
 .work img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
@@ -316,14 +318,23 @@ nav .fa-solid {
 }
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url(images/background.png);
+        background-image: url(images/phone-background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
     }
     .header-text {
-        margin-top: 100%;
+        margin-top: 5%;
         font-size: 16px;
     }
     .header-text h1 {
         font-size: 30px;
+    }
+    .header-image {
+        display: block;
+        margin-top: 20px;
+        margin-left: 5%;
+        width: 90%;
     }
     nav .fa-solid {
         display: block;
