@@ -1,5 +1,5 @@
 **Introduction**\
-This website serves as a showcase of my skills in frontend development and web design. I've built this website using JavaScript, HTML, and CSS to demonstrate my proficiency in these technologies.
+This website serves as a showcase of my skills in frontend development and web design. I've built this website using HTML and CSS to demonstrate my proficiency in these technologies.
 
 **Features**\
 Responsive design\
@@ -9,8 +9,7 @@ Contact form
 
 **Technologies Used**\
 HTML  
-CSS  
-JavaScript  
+CSS    
 GitHub
 
 **IDE:** Visual Studio Code
